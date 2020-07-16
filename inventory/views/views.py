@@ -5,8 +5,10 @@ from django.template import loader
 # Create your views here.
 
 def index(request):
-    context = {}
-    template = loader.get_template('inventory/index.html')
+    context = {
+        "title": "FORM"
+        }
+    template = loader.get_template('inventory/form.html')
     return HttpResponse(template.render(context, request))
 
 
