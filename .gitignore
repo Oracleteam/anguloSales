@@ -128,7 +128,11 @@ dmypy.json
 # Pyre type checker
 .pyre/
 
-# NODE
+# idea con files
+.idea/
+
+# NODE js files
 node_modules/
 
+# static files
 static/

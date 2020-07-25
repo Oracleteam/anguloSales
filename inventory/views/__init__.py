@@ -1,2 +1,2 @@
-from .views import *
-from .Vlogin import *
+from .gentelella import *
+from .vlogin import *
