@@ -135,4 +135,4 @@ STATICFILES_FINDERS = (
 NPM_ROOT_PATH = os.path.join(PROJECT_ROOT)
 
 # login vars
-LOGIN_URL = "/"
+LOGIN_URL = "login_view"
